@@ -338,3 +338,41 @@ a {
         display: none;
     }
 }
+
+@media(max-width: 500px) {
+    .sidebar {
+        display: none;
+    }
+
+    .card-container {
+        width: 100%;
+    }
+
+    .sticky-nav {
+        display: none;
+    }
+
+    .card {
+        width: 240px;
+    }
+    .music-player {
+        display: none;
+    }
+
+    .last {
+        width: 600px;
+        display: inline-block;
+    }
+    .community {
+        text-align: center;
+    }
+
+    .social {
+        height: 120px;
+        margin: auto;
+    }
+
+    .social i {
+        padding: 10px;
+    }
+}
